@@ -1,0 +1,47 @@
+tables:
+  - name: attbook
+
+    sql: {{ load_sql('attbook') }}
+    description: Gives interaction details etc.
+ 
+    public: true 
+
+    dimensions:
+
+      - name: geo_name
+        type: string
+        column: geo_name
+        description: "geo column"
+
+      - name: booking_id
+        type: number
+        column: booking_id
+        description: "user booking ID"
+        primary_key: true
+      
+      - name: advertiser_id
+        type: number
+        column: advertiser_id
+        description: "adv ID"
+
+      - name: geo_id
+        type: number
+        column: geo_id
+        description: "geo ID"
+
+      - name: location_name
+        type: string
+        column: location_name
+        description: "Name of the State"
+
+      - name: location_id
+        type: number
+        column: location_id
+        description: "Name of the Country"
+
+      - name: compaign_id
+        type: number
+        column: compaign_id
+        description: "compaign"
+
+      

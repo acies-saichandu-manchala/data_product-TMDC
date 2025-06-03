@@ -1,0 +1,10 @@
+SELECT
+    booking_id,
+    advertiser_id,
+    geo_name,
+    location_name,
+    geo_id,
+    location_id,
+    campaign_id
+FROM
+    lakehouse.nivedhaa.attbook

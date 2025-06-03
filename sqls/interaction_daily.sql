@@ -1,0 +1,10 @@
+SELECT
+    device_type,
+    session_id,
+    interaction_count,
+    interaction_type,
+    page_id,
+    user_id,
+    interaction_id
+FROM
+    lakehouse.nivedhaa.uiddata

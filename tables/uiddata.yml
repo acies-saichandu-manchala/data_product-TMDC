@@ -1,0 +1,47 @@
+tables:
+  - name: uiddata
+
+    sql: {{ load_sql('uiddata') }}
+    description: Gives interaction details etc.
+ 
+    public: true 
+
+    dimensions:
+
+      - name: device_type
+        type: string
+        column: device_type
+        description: "type of device"
+
+      - name: user_id
+        type: number
+        column: user_id
+        description: "Unique user ID"
+        primary_key: true
+      
+      - name: session_id
+        type: number
+        column: session_id
+        description: "session number"
+
+      - name: interaction_count
+        type: number
+        column: interaction_count
+        description: "count of interaction"
+
+      - name: interaction_type
+        type: string
+        column: interaction_type
+        description: "type of interaction"
+
+      - name: page_id
+        type: number
+        column: page_id
+        description: "location to page"
+
+      - name: interaction_id
+        type: number
+        column: interaction_id
+        description: "interactions"
+
+      
