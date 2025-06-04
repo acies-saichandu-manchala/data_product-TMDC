@@ -1,7 +1,7 @@
 tables:
   - name: uiddata
 
-    sql: {{ load_sql('uiddata') }}
+    sql: {{ load_sql('interaction_daily') }}
     description: Gives interaction details etc.
  
     public: true 

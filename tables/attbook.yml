@@ -1,7 +1,7 @@
 tables:
   - name: attbook
 
-    sql: {{ load_sql('attbook') }}
+    sql: {{ load_sql('attraction_booking') }}
     description: Gives interaction details etc.
  
     public: true 
