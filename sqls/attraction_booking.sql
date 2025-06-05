@@ -7,4 +7,4 @@ SELECT
     location_id,
     campaign_id
 FROM
-    lakehouse.nivedhaa.attbook
+    lakehouse.nivedhaa.att_book
